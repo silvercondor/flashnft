@@ -11,6 +11,6 @@ Provide efficient and usable tools for Loot community users. created based on [C
 
 ## Link list:
 - [Website](https://flashnft.github.io)
-- [Twittere](https://twitter.com/flashnfteth)
+- [Twitter](https://twitter.com/flashnfteth)
 - [Gitcoin Donate](https://gitcoin.co/grants/3525/flashnftloot-tools)
 

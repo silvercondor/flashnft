@@ -2,7 +2,7 @@
   "name": "FlashNFT",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "./",
   "dependencies": {
     "@ethersproject/providers": "^5.4.1",
     "@ethersproject/units": "^5.4.0",
@@ -30,7 +30,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/**/*.{ts,tsx,css}",
-    "lint": "tsc --noEmit && eslint src/**/**/*.{ts,tsx,css}"
+    "lint": "tsc --noEmit && eslint src/**/**/*.{ts,tsx,css}",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -63,6 +65,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.2"
   }
 }
